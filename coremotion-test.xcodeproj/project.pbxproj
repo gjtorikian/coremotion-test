@@ -10,11 +10,8 @@
 		0E2C4B4221E2C377004F5CB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2C4B4121E2C377004F5CB3 /* AppDelegate.swift */; };
 		0E2C4B4421E2C377004F5CB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2C4B4321E2C377004F5CB3 /* ViewController.swift */; };
 		0E2C4B4721E2C377004F5CB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2C4B4521E2C377004F5CB3 /* Main.storyboard */; };
-		0E2C4B4A21E2C377004F5CB3 /* gyro_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E2C4B4821E2C377004F5CB3 /* gyro_test.xcdatamodeld */; };
 		0E2C4B4C21E2C378004F5CB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E2C4B4B21E2C378004F5CB3 /* Assets.xcassets */; };
 		0E2C4B4F21E2C378004F5CB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2C4B4D21E2C378004F5CB3 /* LaunchScreen.storyboard */; };
-		0E2C4B5A21E2C378004F5CB3 /* gyro_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2C4B5921E2C378004F5CB3 /* gyro_testTests.swift */; };
-		0E2C4B6521E2C379004F5CB3 /* gyro_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2C4B6421E2C379004F5CB3 /* gyro_testUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,32 +20,27 @@
 			containerPortal = 0E2C4B3621E2C377004F5CB3 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0E2C4B3D21E2C377004F5CB3;
-			remoteInfo = gyro_test;
+			remoteInfo = "coremotion-test";
 		};
 		0E2C4B6121E2C378004F5CB3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0E2C4B3621E2C377004F5CB3 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0E2C4B3D21E2C377004F5CB3;
-			remoteInfo = gyro_test;
+			remoteInfo = "coremotion-test";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E2C4B3E21E2C377004F5CB3 /* gyro_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gyro_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E2C4B3E21E2C377004F5CB3 /* coremotion-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coremotion-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E2C4B4121E2C377004F5CB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E2C4B4321E2C377004F5CB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0E2C4B4621E2C377004F5CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0E2C4B4921E2C377004F5CB3 /* gyro_test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gyro_test.xcdatamodel; sourceTree = "<group>"; };
 		0E2C4B4B21E2C378004F5CB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E2C4B4E21E2C378004F5CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E2C4B5021E2C378004F5CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E2C4B5521E2C378004F5CB3 /* gyro_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gyro_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E2C4B5921E2C378004F5CB3 /* gyro_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gyro_testTests.swift; sourceTree = "<group>"; };
-		0E2C4B5B21E2C378004F5CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E2C4B6021E2C378004F5CB3 /* gyro_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gyro_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E2C4B6421E2C379004F5CB3 /* gyro_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gyro_testUITests.swift; sourceTree = "<group>"; };
-		0E2C4B6621E2C379004F5CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E2C4B5521E2C378004F5CB3 /* coremotion-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "coremotion-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E2C4B6021E2C378004F5CB3 /* coremotion-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "coremotion-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +71,7 @@
 		0E2C4B3521E2C377004F5CB3 = {
 			isa = PBXGroup;
 			children = (
-				0E2C4B4021E2C377004F5CB3 /* gyro_test */,
-				0E2C4B5821E2C378004F5CB3 /* gyro_testTests */,
-				0E2C4B6321E2C378004F5CB3 /* gyro_testUITests */,
+				0E2C4B4021E2C377004F5CB3 /* coremotion-test */,
 				0E2C4B3F21E2C377004F5CB3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +79,14 @@
 		0E2C4B3F21E2C377004F5CB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0E2C4B3E21E2C377004F5CB3 /* gyro_test.app */,
-				0E2C4B5521E2C378004F5CB3 /* gyro_testTests.xctest */,
-				0E2C4B6021E2C378004F5CB3 /* gyro_testUITests.xctest */,
+				0E2C4B3E21E2C377004F5CB3 /* coremotion-test.app */,
+				0E2C4B5521E2C378004F5CB3 /* coremotion-testTests.xctest */,
+				0E2C4B6021E2C378004F5CB3 /* coremotion-testUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0E2C4B4021E2C377004F5CB3 /* gyro_test */ = {
+		0E2C4B4021E2C377004F5CB3 /* coremotion-test */ = {
 			isa = PBXGroup;
 			children = (
 				0E2C4B4121E2C377004F5CB3 /* AppDelegate.swift */,
@@ -105,35 +95,16 @@
 				0E2C4B4B21E2C378004F5CB3 /* Assets.xcassets */,
 				0E2C4B4D21E2C378004F5CB3 /* LaunchScreen.storyboard */,
 				0E2C4B5021E2C378004F5CB3 /* Info.plist */,
-				0E2C4B4821E2C377004F5CB3 /* gyro_test.xcdatamodeld */,
 			);
-			path = gyro_test;
-			sourceTree = "<group>";
-		};
-		0E2C4B5821E2C378004F5CB3 /* gyro_testTests */ = {
-			isa = PBXGroup;
-			children = (
-				0E2C4B5921E2C378004F5CB3 /* gyro_testTests.swift */,
-				0E2C4B5B21E2C378004F5CB3 /* Info.plist */,
-			);
-			path = gyro_testTests;
-			sourceTree = "<group>";
-		};
-		0E2C4B6321E2C378004F5CB3 /* gyro_testUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0E2C4B6421E2C379004F5CB3 /* gyro_testUITests.swift */,
-				0E2C4B6621E2C379004F5CB3 /* Info.plist */,
-			);
-			path = gyro_testUITests;
+			path = "coremotion-test";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0E2C4B3D21E2C377004F5CB3 /* gyro_test */ = {
+		0E2C4B3D21E2C377004F5CB3 /* coremotion-test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0E2C4B6921E2C379004F5CB3 /* Build configuration list for PBXNativeTarget "gyro_test" */;
+			buildConfigurationList = 0E2C4B6921E2C379004F5CB3 /* Build configuration list for PBXNativeTarget "coremotion-test" */;
 			buildPhases = (
 				0E2C4B3A21E2C377004F5CB3 /* Sources */,
 				0E2C4B3B21E2C377004F5CB3 /* Frameworks */,
@@ -143,14 +114,14 @@
 			);
 			dependencies = (
 			);
-			name = gyro_test;
-			productName = gyro_test;
-			productReference = 0E2C4B3E21E2C377004F5CB3 /* gyro_test.app */;
+			name = "coremotion-test";
+			productName = "coremotion-test";
+			productReference = 0E2C4B3E21E2C377004F5CB3 /* coremotion-test.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0E2C4B5421E2C378004F5CB3 /* gyro_testTests */ = {
+		0E2C4B5421E2C378004F5CB3 /* coremotion-testTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0E2C4B6C21E2C379004F5CB3 /* Build configuration list for PBXNativeTarget "gyro_testTests" */;
+			buildConfigurationList = 0E2C4B6C21E2C379004F5CB3 /* Build configuration list for PBXNativeTarget "coremotion-testTests" */;
 			buildPhases = (
 				0E2C4B5121E2C378004F5CB3 /* Sources */,
 				0E2C4B5221E2C378004F5CB3 /* Frameworks */,
@@ -161,14 +132,14 @@
 			dependencies = (
 				0E2C4B5721E2C378004F5CB3 /* PBXTargetDependency */,
 			);
-			name = gyro_testTests;
-			productName = gyro_testTests;
-			productReference = 0E2C4B5521E2C378004F5CB3 /* gyro_testTests.xctest */;
+			name = "coremotion-testTests";
+			productName = "coremotion-testTests";
+			productReference = 0E2C4B5521E2C378004F5CB3 /* coremotion-testTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0E2C4B5F21E2C378004F5CB3 /* gyro_testUITests */ = {
+		0E2C4B5F21E2C378004F5CB3 /* coremotion-testUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0E2C4B6F21E2C379004F5CB3 /* Build configuration list for PBXNativeTarget "gyro_testUITests" */;
+			buildConfigurationList = 0E2C4B6F21E2C379004F5CB3 /* Build configuration list for PBXNativeTarget "coremotion-testUITests" */;
 			buildPhases = (
 				0E2C4B5C21E2C378004F5CB3 /* Sources */,
 				0E2C4B5D21E2C378004F5CB3 /* Frameworks */,
@@ -179,9 +150,9 @@
 			dependencies = (
 				0E2C4B6221E2C378004F5CB3 /* PBXTargetDependency */,
 			);
-			name = gyro_testUITests;
-			productName = gyro_testUITests;
-			productReference = 0E2C4B6021E2C378004F5CB3 /* gyro_testUITests.xctest */;
+			name = "coremotion-testUITests";
+			productName = "coremotion-testUITests";
+			productReference = 0E2C4B6021E2C378004F5CB3 /* coremotion-testUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +178,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0E2C4B3921E2C377004F5CB3 /* Build configuration list for PBXProject "gyro_test" */;
+			buildConfigurationList = 0E2C4B3921E2C377004F5CB3 /* Build configuration list for PBXProject "coremotion-test" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +191,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0E2C4B3D21E2C377004F5CB3 /* gyro_test */,
-				0E2C4B5421E2C378004F5CB3 /* gyro_testTests */,
-				0E2C4B5F21E2C378004F5CB3 /* gyro_testUITests */,
+				0E2C4B3D21E2C377004F5CB3 /* coremotion-test */,
+				0E2C4B5421E2C378004F5CB3 /* coremotion-testTests */,
+				0E2C4B5F21E2C378004F5CB3 /* coremotion-testUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,7 +232,6 @@
 			files = (
 				0E2C4B4421E2C377004F5CB3 /* ViewController.swift in Sources */,
 				0E2C4B4221E2C377004F5CB3 /* AppDelegate.swift in Sources */,
-				0E2C4B4A21E2C377004F5CB3 /* gyro_test.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E2C4B5A21E2C378004F5CB3 /* gyro_testTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E2C4B6521E2C379004F5CB3 /* gyro_testUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +254,12 @@
 /* Begin PBXTargetDependency section */
 		0E2C4B5721E2C378004F5CB3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0E2C4B3D21E2C377004F5CB3 /* gyro_test */;
+			target = 0E2C4B3D21E2C377004F5CB3 /* coremotion-test */;
 			targetProxy = 0E2C4B5621E2C378004F5CB3 /* PBXContainerItemProxy */;
 		};
 		0E2C4B6221E2C378004F5CB3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0E2C4B3D21E2C377004F5CB3 /* gyro_test */;
+			target = 0E2C4B3D21E2C377004F5CB3 /* coremotion-test */;
 			targetProxy = 0E2C4B6121E2C378004F5CB3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -438,12 +406,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7ZU7DNKA8J;
-				INFOPLIST_FILE = gyro_test/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/coremotion-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.miadzin.gyro-test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miadzin.coremotion-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,12 +424,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7ZU7DNKA8J;
-				INFOPLIST_FILE = gyro_test/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/coremotion-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.miadzin.gyro-test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miadzin.coremotion-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -475,7 +443,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7ZU7DNKA8J;
-				INFOPLIST_FILE = gyro_testTests/Info.plist;
+				INFOPLIST_FILE = "coremotion-testTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,7 +453,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gyro_test.app/gyro_test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coremotion-test.app/coremotion-test";
 			};
 			name = Debug;
 		};
@@ -496,7 +464,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7ZU7DNKA8J;
-				INFOPLIST_FILE = gyro_testTests/Info.plist;
+				INFOPLIST_FILE = "coremotion-testTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -506,7 +474,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gyro_test.app/gyro_test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coremotion-test.app/coremotion-test";
 			};
 			name = Release;
 		};
@@ -516,7 +484,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7ZU7DNKA8J;
-				INFOPLIST_FILE = gyro_testUITests/Info.plist;
+				INFOPLIST_FILE = "coremotion-testUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -526,7 +494,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = gyro_test;
+				TEST_TARGET_NAME = "coremotion-test";
 			};
 			name = Debug;
 		};
@@ -536,7 +504,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7ZU7DNKA8J;
-				INFOPLIST_FILE = gyro_testUITests/Info.plist;
+				INFOPLIST_FILE = "coremotion-testUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -546,14 +514,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = gyro_test;
+				TEST_TARGET_NAME = "coremotion-test";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0E2C4B3921E2C377004F5CB3 /* Build configuration list for PBXProject "gyro_test" */ = {
+		0E2C4B3921E2C377004F5CB3 /* Build configuration list for PBXProject "coremotion-test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0E2C4B6721E2C379004F5CB3 /* Debug */,
@@ -562,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0E2C4B6921E2C379004F5CB3 /* Build configuration list for PBXNativeTarget "gyro_test" */ = {
+		0E2C4B6921E2C379004F5CB3 /* Build configuration list for PBXNativeTarget "coremotion-test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0E2C4B6A21E2C379004F5CB3 /* Debug */,
@@ -571,7 +539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0E2C4B6C21E2C379004F5CB3 /* Build configuration list for PBXNativeTarget "gyro_testTests" */ = {
+		0E2C4B6C21E2C379004F5CB3 /* Build configuration list for PBXNativeTarget "coremotion-testTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0E2C4B6D21E2C379004F5CB3 /* Debug */,
@@ -580,7 +548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0E2C4B6F21E2C379004F5CB3 /* Build configuration list for PBXNativeTarget "gyro_testUITests" */ = {
+		0E2C4B6F21E2C379004F5CB3 /* Build configuration list for PBXNativeTarget "coremotion-testUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0E2C4B7021E2C379004F5CB3 /* Debug */,
@@ -590,19 +558,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		0E2C4B4821E2C377004F5CB3 /* gyro_test.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				0E2C4B4921E2C377004F5CB3 /* gyro_test.xcdatamodel */,
-			);
-			currentVersion = 0E2C4B4921E2C377004F5CB3 /* gyro_test.xcdatamodel */;
-			path = gyro_test.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 0E2C4B3621E2C377004F5CB3 /* Project object */;
 }

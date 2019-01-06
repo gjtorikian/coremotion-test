@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:gyro_test.xcodeproj">
+      location = "self:coremotion-test.xcodeproj">
    </FileRef>
 </Workspace>
