@@ -61,7 +61,7 @@ class ViewController: UIViewController {
             print(coreMotionErrorMsg); return
         }
 
-        motionManager.deviceMotionUpdateInterval = 0.1
+        motionManager.deviceMotionUpdateInterval = 0.5;
         motionManager.startDeviceMotionUpdates(to: OperationQueue()) { (data, error) in
             let userAcceleration = data?.userAcceleration;
             let gravity = data?.gravity;
